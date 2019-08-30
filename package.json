@@ -1,0 +1,21 @@
+{
+  "name": "parceltemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier:fix": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,scss}\"",
+    "dev": "parcel ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "prettier": "1.18.2"
+  }
+}
